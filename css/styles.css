@@ -22,12 +22,13 @@
     padding-bottom: 6rem;
 }
 
-/* Add a white border to make your circle photo pop */
+/* Optional: Add a white border to make your circle photo pop */
 .masthead-avatar {
     border: 6px solid white;
     border-radius: 50%;
 }
-.video-slider-container {
+
+ .video-slider-container {
     padding: 40px 10px;
     background-color: #f8f9fa;
 }
@@ -11252,11 +11253,6 @@ letter-spacing: 3px; /* Premium spacing */
 /* change color of my Name */
 .masthead .masthead-heading {
   color: white;
-  font-size: 2.75rem;
-  line-height: 2.75rem;
-}
-.masthead .masthead-heading {
-  color: #000;
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
