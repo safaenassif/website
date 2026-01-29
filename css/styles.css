@@ -10,6 +10,57 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.video-slider-container {
+    padding: 40px 10px;
+    background-color: #f8f9fa;
+}
+
+.video-slider-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 30px; /* Increased gap for a cleaner look */
+    padding-bottom: 25px;
+    scrollbar-width: thin;
+}
+
+/* Updated Individual Video Item - Larger Size */
+.video-item {
+    min-width: 450px; /* This makes the pictures larger again */
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.video-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* The Larger Buttons you liked */
+.yt-large-btn {
+    display: block;
+    background-color: #FF0000;
+    color: #ffffff !important;
+    padding: 15px 25px; /* Big, easy-to-click buttons */
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.yt-large-btn:hover {
+    background-color: #cc0000;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
