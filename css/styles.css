@@ -11269,7 +11269,21 @@ letter-spacing: 3px; /* Premium spacing */
     height: 400px; /* Ensure it's still a square */
     object-fit: cover; /* Keeps the aspect ratio */
 }
+/* Custom Primary Navy Color */
+.bg-navy {
+    background-color: #1a252f !important; /* This is the deep navy from the palette */
+}
 
+/* Optional: Ensure the links are bright and clean on the navy background */
+#mainNav .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+#mainNav .navbar-brand {
+    color: white !important;
+    font-weight: 700;
+}
 
 @media (min-width: 992px) {
   .masthead {
