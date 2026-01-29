@@ -10,6 +10,23 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/* Picture portfolio background gradiant */
+ header.masthead {
+    /* The 0.7 value creates the low intensity/darkened effect */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('../assets/img/portfolio/SafaeWithGuitar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+}
+
+/* Add a white border to make your circle photo pop */
+.masthead-avatar {
+    border: 6px solid white;
+    border-radius: 50%;
+}
 .video-slider-container {
     padding: 40px 10px;
     background-color: #f8f9fa;
@@ -11227,11 +11244,16 @@ html {
   font-size: 1.5rem;
   color: #6c757d;
 }
-
+/* change style of line */
 .masthead {
-  background-color: var(--bs-green) !important;;
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Adds depth */
+letter-spacing: 3px; /* Premium spacing */
+}
+/* change color of my Name */
+.masthead .masthead-heading {
+  color: white;
+  font-size: 2.75rem;
+  line-height: 2.75rem;
 }
 .masthead .masthead-heading {
   color: #000;
